@@ -65,24 +65,76 @@ async def gen_thumb(videoid):
                     )
                     await f.write(await resp.read())
                     await f.close()
-        image1 = Image.open(f"cache/thumb{videoid}.png")
-        image2 = Image.open(f"YukkiMusic/resource/{images}.png")
-        image3 = changeImageSize(1280, 720, image1)
-        image4 = changeImageSize(1280, 720, image2)
-        image5 = image3.convert("RGBA")
-        image6 = image4.convert("RGBA")
-        Image.alpha_composite(image5, image6).save("cache/temp.png")
-        logo = Image.open("cache/temp.png")
-        img = ImageOps.expand(logo, border=0, fill=f"{border}")
-        draw = ImageDraw.Draw(img)
+
+        youtube = Image.open(f"cache/thumb{videoid}.png")
+        image1 = changeImageSize(1280, 720, youtube)
+        image2 = image1.convert("RGBA")
+        background = image2.filter(filter=ImageFilter.BoxBlur(10))
+        enhancer = ImageEnhance.Brightness(background)
+        background = enhancer.enhance(0.5)
+        draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
-        draw.text((190, 555), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
-           try:
+        font2 = ImageFont.truetype("assets/font2.ttf", 70)
+        arial = ImageFont.truetype("assets/font2.ttf", 30)
+        name_font = ImageFont.truetype("assets/font.ttf", 30)
+        para = textwrap.wrap(title, width=32)
+        j = 0
+        draw.text(
+            (5, 5), f"", fill="white", font=name_font
+        )
+        draw.text(
+            (600, 150),
+            "",
+            fill="white",
+            stroke_width=2,
+            stroke_fill="white",
+            font=font2,
+        )
+        for line in para:
+            if j == 1:
+                j += 1
+                draw.text(
+                    (600, 340),
+                    f"{line}",
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
+                    font=font,
+                )
+            if j == 0:
+                j += 1
+                draw.text(
+                    (600, 280),
+                    f"{line}",
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
+                    font=font,
+                )
+
+        draw.text(
+            (600, 450),
+            f"",
+            (255, 255, 255),
+            font=arial,
+        )
+        draw.text(
+            (600, 500),
+            f"",
+            (255, 255, 255),
+            font=arial,
+        )
+        draw.text(
+            (600, 550),
+            f"",
+            (255, 255, 255),
+            font=arial,
+        )
+        try:
             os.remove(f"cache/thumb{videoid}.png")
-            os.remove(f"cache/temp.png")
         except:
             pass
-        img.save(f"cache/{videoid}.png")
+        background.save(f"cache/{videoid}.png")
         return f"cache/{videoid}.png"
     except Exception:
         return YOUTUBE_IMG_URL
