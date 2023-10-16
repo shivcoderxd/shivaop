@@ -67,7 +67,7 @@ async def gen_thumb(videoid):
                     await f.close()
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        image1 = changeImageSize(1000, 720, youtube)
+        image1 = changeImageSize(2400, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(0))
         enhancer = ImageEnhance.Brightness(background)
@@ -80,7 +80,7 @@ async def gen_thumb(videoid):
         y2 = Ycenter + 250
         logo = youtube.crop((x1, y1, x2, y2))
         logo.thumbnail((520, 520), Image.ANTIALIAS)
-        logo = ImageOps.expand(logo, border=15, fill="white")
+        logo = ImageOps.expand(logo, border=0, fill="white")
         background.paste(logo, (50, 100))
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
@@ -94,7 +94,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "LUFY PLAYING",
+            "",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
@@ -124,19 +124,19 @@ async def gen_thumb(videoid):
 
         draw.text(
             (600, 450),
-            f"Views : {views[:23]}",
+            f"",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
             (600, 500),
-            f"Duration : {duration[:23]} Mins",
+            f"",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
             (600, 550),
-            f"Channel : {channel}",
+            f"",
             (255, 255, 255),
             font=arial,
         )
