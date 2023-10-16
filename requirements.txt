@@ -1,4 +1,5 @@
 aiofiles
+requests
 aiohttp
 asyncio
 dnspython
