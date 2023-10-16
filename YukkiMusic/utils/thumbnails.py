@@ -69,7 +69,7 @@ async def gen_thumb(videoid):
         youtube = Image.open(f"cache/thumb{videoid}.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(10))
+        background = image2.filter(filter=ImageFilter.BoxBlur(0))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.5)
         draw = ImageDraw.Draw(background)
@@ -77,7 +77,7 @@ async def gen_thumb(videoid):
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
         name_font = ImageFont.truetype("assets/font.ttf", 30)
-        para = textwrap.wrap(title, width=32)
+        para = textwrap.wrap(title, width=5)
         j = 0
         draw.text(
             (5, 5), f"", fill="white", font=name_font
