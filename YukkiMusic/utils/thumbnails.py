@@ -75,7 +75,7 @@ async def gen_thumb(videoid):
         logo = Image.open("cache/temp.png")
         img = ImageOps.expand(logo, border=0, fill=f"{border}")
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype("assets/font2.ttf", 40))
+        font = ImageFont.truetype("assets/font2.ttf", 40)
         draw.text((190, 555), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
            try:
             os.remove(f"cache/thumb{videoid}.png")
