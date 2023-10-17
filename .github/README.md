@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/edfd9e288de8e3eea106d.jpg" align="centre" width="600" height="200"/>
+<img src="https://graph.org/file/edfd9e288de8e3eea106d.jpg" align="centre" width="600" height="100"/>
 
     
 [Luffy Music](https://github.com/shivcoderxd/shivaop) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
@@ -14,8 +14,8 @@
 ## ⚠️ Heroku / Okteto / Railway
 
 <p align="center">
-<a href="https://railway.app/new/template?template=https://github.com/shivcoderxd/shivaop&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSTRING_SESSION%2CSUDO_USERS%2COWNER_ID%2CDURATION_LIMIT%2CSUPPORT_CHANNEL%2CMONGO_DB_URI%2CLOG_GROUP_ID%2CASSISTANT_PREFIX%2CMUSIC_BOT_NAME%2CSUPPORT_GROUP&optionalEnvs=SUPPORT_CHANNEL%2CSUPPORT_GROUP"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-yellow?style=for-the-badge&logo=railway" width="200""/</a>
-<a href="https://dashboard.heroku.com/new?template=https://github.com/shivcoderxd/shivaop"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="200""/</a>  
+<a href="https://railway.app/new/template?template=https://github.com/shivcoderxd/shivaop&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSTRING_SESSION%2CSUDO_USERS%2COWNER_ID%2CDURATION_LIMIT%2CSUPPORT_CHANNEL%2CMONGO_DB_URI%2CLOG_GROUP_ID%2CASSISTANT_PREFIX%2CMUSIC_BOT_NAME%2CSUPPORT_GROUP&optionalEnvs=SUPPORT_CHANNEL%2CSUPPORT_GROUP"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-darkred?style=for-the-badge&logo=railway" width="200""/</a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/shivcoderxd/shivaop"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/</a>  
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/shivcoderxd/shivaop"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/</a>
 
 ## 🖇 Generating Pyrogram String Session
