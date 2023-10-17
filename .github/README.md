@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/edfd9e288de8e3eea106d.jpg" align="centre" width="200" height="100"/>
+<img src="https://graph.org/file/edfd9e288de8e3eea106d.jpg" align="centre" width="400" height="100"/>
 
     
 [Luffy Music](https://github.com/shivcoderxd/shivaop) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
@@ -55,7 +55,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 <h3 align="center">
     ─「 sᴜᴩᴩᴏʀᴛ 」─
-</h3>
+
 <p align="centre">
 <a href="https://telegram.me/ilseavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
