@@ -58,10 +58,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 <p align="centre">
 <a href="https://telegram.me/ilseavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-<p align="centre">
 <a href="https://telegram.me/FnAssociation"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
