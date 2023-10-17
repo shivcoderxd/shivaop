@@ -11,18 +11,17 @@
 
 # ⚡️ Getting Started
 
-## ⚠️ Heroku / Okteto / Railway
+## ⚠️ Railway / Heroku / Okteto
 
 <p align="center">
-<a href="https://railway.app/new/template?template=https://github.com/shivcoderxd/shivaop&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSTRING_SESSION%2CSUDO_USERS%2COWNER_ID%2CDURATION_LIMIT%2CSUPPORT_CHANNEL%2CMONGO_DB_URI%2CLOG_GROUP_ID%2CASSISTANT_PREFIX%2CMUSIC_BOT_NAME%2CSUPPORT_GROUP&optionalEnvs=SUPPORT_CHANNEL%2CSUPPORT_GROUP"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-darkred?style=for-the-badge&logo=railway" width="200""/</a>
+<a href="https://railway.app/new/template?template=https://github.com/shivcoderxd/shivaop&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSTRING_SESSION%2CSUDO_USERS%2COWNER_ID%2CDURATION_LIMIT%2CSUPPORT_CHANNEL%2CMONGO_DB_URI%2CLOG_GROUP_ID%2CASSISTANT_PREFIX%2CMUSIC_BOT_NAME%2CSUPPORT_GROUP&optionalEnvs=SUPPORT_CHANNEL%2CSUPPORT_GROUP"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-neon?style=for-the-badge&logo=railway" width="200""/</a>
 <a href="https://dashboard.heroku.com/new?template=https://github.com/shivcoderxd/shivaop"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/</a>  
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/shivcoderxd/shivaop"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/</a>
 
 ## 🖇 Generating Pyrogram String Session
 
 <p>
-<a href="https://replit.NotReallyShikhar/Yukki-MusiString-Gen"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/YugBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/YugBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-white?style=for-the-badge&logo=appveyor" width="200""/></a>
 </p>
 
 ## 🖇 VPS Deployment
@@ -57,7 +56,6 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <h3 align="center">
     ─「 sᴜᴩᴩᴏʀᴛ 」─
 </h3>
-
 <p align="centre">
 <a href="https://telegram.me/ilseavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
