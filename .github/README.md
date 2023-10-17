@@ -60,6 +60,8 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <a href="https://telegram.me/ilseavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://telegram.me/FnAssociation"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
+<p align="centre">
+<a
 Special thanks :
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
