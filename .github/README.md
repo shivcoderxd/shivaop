@@ -1,3 +1,6 @@
+<img src="https://graph.org/file/edfd9e288de8e3eea106d.jpg" align="centre" width="200" height="200"/>
+
+    
 [Luffy Music](https://github.com/shivcoderxd/shivaop) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
 * Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
