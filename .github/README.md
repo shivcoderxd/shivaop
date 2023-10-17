@@ -53,7 +53,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 ━━━━━━━━━━━━━━━━━━━━
 
-<h3 align="center">
+
     ─「 sᴜᴩᴩᴏʀᴛ 」─
 
 <p align="centre">
