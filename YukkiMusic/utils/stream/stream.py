@@ -120,7 +120,10 @@ async def stream(
                     photo=img,
                     caption=_["stream_1"].format(
                         user_name,
-                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        f"https://www.youtube.com/watch?v={vidid}",
+                      title,
+                      duration_min,
+                      user_name,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
